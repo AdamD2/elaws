@@ -8,12 +8,15 @@
 #
 
 $url = "https://en.wikipedia.org/wiki/List_of_eponymous_laws";
-$version = "Elaws version: 0.2.\nUsage: ./elaws.pl\n./elaws.pl -h for help.\n";
-$help = "Usage: ./elaws [-v] [-h] [-b] [\$number]\nv - Version\nh - Help
-b - Verbose\n\$number - Number of laws to print or 1 by default\n";
-$verbose = "Welcome to elaws, a simple terminal based program to fetch and 
-display an eponymous law.\n
-https://en.wikipedia.org/wiki/List_of_eponymous_laws\n\n";
+$version = "Elaws version: 0.2.\n" . 
+           "Usage: ./elaws.pl\n" .
+           "./elaws.pl -h for help.\n";
+$help = "Usage: ./elaws [-v] [-h] [-b] [\$number]\n" .
+        "v - Version\nh - Help\nb - Verbose\n" .
+        "\$number - Number of laws to print or 1 by default\n";
+$verbose = "Welcome to elaws, a simple terminal based program to fetch and " .
+           "display an eponymous law.\n" .
+           "https://en.wikipedia.org/wiki/List_of_eponymous_laws\n\n";
 
 main();
 
